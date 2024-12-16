@@ -25,6 +25,26 @@
 }
 /* End Letter CSS */
 
+/* Table CSS */
+table {
+	margin: 1em auto 1em auto;
+	width: auto;
+}
+
+table td:last-child{
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
+
+table tr:last-child td:first-child{
+	padding-left: 1em;
+}
+
+table tr:last-child td:last-child{
+	border-top: 1px solid;
+}
+/* End Table CSS */
+
 blockquote header p{
 	font-variant: small-caps;
 }
@@ -42,8 +62,14 @@ blockquote header p b{
 }
 
 #chapter-1 blockquote footer blockquote:first-of-type p{
-	display: flex;
-	justify-content: space-around;
+	text-align: center;
+}
+
+@supports (display: flex){
+	#chapter-1 blockquote footer blockquote:first-of-type p{
+		display: flex;
+		justify-content: space-around;
+	}
 }
 
 footer{
