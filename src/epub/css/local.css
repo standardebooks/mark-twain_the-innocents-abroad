@@ -26,14 +26,14 @@
 /* End Letter CSS */
 
 /* Table CSS */
-table {
+table{
 	margin: 1em auto 1em auto;
 	width: auto;
 }
 
 table td:last-child{
-	text-align: right;
 	font-variant-numeric: tabular-nums;
+	text-align: right;
 }
 
 table tr:last-child td:first-child{
@@ -44,6 +44,10 @@ table tr:last-child td:last-child{
 	border-top: 1px solid;
 }
 /* End Table CSS */
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
 
 blockquote header p{
 	font-variant: small-caps;
@@ -65,7 +69,7 @@ blockquote header p b{
 	text-align: center;
 }
 
-@supports (display: flex){
+@supports(display: flex){
 	#chapter-1 blockquote footer blockquote:first-of-type p{
 		display: flex;
 		justify-content: space-around;
