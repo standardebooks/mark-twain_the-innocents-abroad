@@ -116,6 +116,11 @@ blockquote header p b{
 	text-indent: 0;
 }
 
+#chapter-21 hr + p{
+	margin: 0;
+	text-indent: 1em;
+}
+
 footer{
 	margin-top: 1em;
 }
