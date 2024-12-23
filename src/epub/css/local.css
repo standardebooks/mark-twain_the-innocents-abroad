@@ -111,6 +111,10 @@ blockquote header p b{
 	}
 }
 
+#chapter-1 footer{
+	text-align: initial;
+}
+
 #chapter-13 blockquote{
 	text-align: center;
 }
@@ -161,8 +165,13 @@ blockquote header p b{
 	text-align: center;
 }
 
+#preface footer{
+	margin-right: 2em;
+}
+
 footer{
 	margin-top: 1em;
+	text-align: right;
 }
 
 header p{
