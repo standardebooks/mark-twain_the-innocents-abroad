@@ -165,6 +165,12 @@ blockquote header p b{
 	text-align: center;
 }
 
+#chapter-29 blockquote,
+#chapter-30 blockquote{
+	font-variant: small-caps;
+	text-align: center;
+}
+
 #preface footer{
 	margin-right: 2em;
 }
