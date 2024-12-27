@@ -107,6 +107,15 @@ blockquote header p b{
 	}
 }
 
+#chapter-13 blockquote{
+	text-align: center;
+}
+
+#chapter-13 blockquote p{
+	margin-bottom: 1em;
+	text-indent: 0;
+}
+
 footer{
 	margin-top: 1em;
 }
