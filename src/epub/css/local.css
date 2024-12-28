@@ -79,7 +79,12 @@ p span.i2{
 	text-indent: -1em;
 }
 
-/* Verse CSS */
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
+/* End Verse CSS */
+
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
