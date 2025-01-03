@@ -19,6 +19,11 @@
 	font-variant: small-caps;
 }
 
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
 [epub|type~="z3998:signature"]{
 	margin-right: 2em;
 	text-align: right;
