@@ -144,7 +144,7 @@ blockquote header p b{
 	text-align: center;
 }
 
-#chapter-26 blockquote:nth-of-type(2) blockquote p+p{
+#chapter-26 blockquote:nth-of-type(2) blockquote p + p{
 	margin-top: 1em;
 	text-indent: 0;
 }
