@@ -30,6 +30,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Innocents Abroad</dc:title>
 		<meta property="file-as" refines="#title">Innocents Abroad, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">The New Pilgrims’ Progress</dc:title>
+		<meta property="file-as" refines="#subtitle">New Pilgrims’ Progress, The</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Innocents Abroad, Or, The New Pilgrims’ Progress</dc:title>
+		<meta property="file-as" refines="#fulltitle">Innocents Abroad, Or, The New Pilgrims’ Progress, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Middle East -- Description and travel</dc:subject>
 		<dc:subject id="subject-2">Voyages and travels</dc:subject>
 		<dc:subject id="subject-3">Europe -- Description and travel</dc:subject>
@@ -39,53 +46,41 @@
 		<meta property="term" refines="#subject-2">sh85144443</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85045661</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Travel</meta>
+		<dc:description id="description">Mark Twain travels through Europe and the Holy Land offering witty observations on the places and cultures he encounters and comments on the habits and foibles of American tourists abroad.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Innocents Abroad&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Mark Twain&lt;/a&gt;, originally published in 1869, chronicles Twain’s journey through Europe, Northern Africa and the Holy Land as part of a group of American tourists aboard the steamship &lt;i&gt;Quaker City&lt;/i&gt;. Twain uses his signature wit and humor to describe the group’s experiences as they explore famous landmarks, mixing descriptions of ancient ruins and sacred sites with irreverent commentary on the expectations versus the reality of these revered destinations. He comments on the various culture clashes he encounters, and also pokes fun at the peculiar and sometimes absurd behavior of fellow travelers.&lt;/p&gt;
+			&lt;p&gt;Twain’s narrative captures the spirit of many Americans of his time, traveling from a still-young nation to the “Old World,” and comparing what they encounter to what they are familiar with at home (as Twain humorously compares all bodies of water he sees to Lake Tahoe). While a product of the 1860s, the story still feels fresh and vibrant, and many of Twain’s anecdotes may feel all too familiar to travelers today, from underwhelming hotels, to unscrupulous tour guides, to the difficulty of communicating abroad (including ill-fated attempts at speaking French in Paris). &lt;i&gt;The Innocents Abroad&lt;/i&gt; conveys the style, spirit and humor for which Twain in famous, while providing an entertaining, rollicking narrative of Twain’s grand tour.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3176</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/innocentsabroado0000mark_e4a2</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Innocents_Abroad</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mark-twain_the-innocents-abroad</meta>
 		<dc:creator id="author">Mark Twain</dc:creator>
 		<meta property="file-as" refines="#author">Twain, Mark</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mark_Twain</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n93099461</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="illustrator">Fay &amp; Cox</dc:contributor>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
+		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Harry Lund</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Lund, Harry</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
