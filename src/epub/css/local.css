@@ -75,7 +75,6 @@ section[epub|type~="dedication"] > *{
 /* End Letter CSS */
 
 /* Illustrations */
-
 /* If the image is meant to be aligned block-level with the text, use this selector... */
 figure{
 	break-inside: avoid;
@@ -94,7 +93,6 @@ figcaption{
 	font-style: italic;
 	margin: 1em;
 }
-
 /* End illustrations */
 
 /* Table CSS */
