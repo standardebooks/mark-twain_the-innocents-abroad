@@ -58,7 +58,6 @@ section[epub|type~="dedication"] > *{
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -76,38 +75,12 @@ section[epub|type~="dedication"] > *{
 /* End Letter CSS */
 
 /* Illustrations */
-/* If the image is meant to be on its own page, use this selector... */
-figure.full-page{
-	break-after: page;
-	break-before: page;
-	break-inside: avoid;
-	margin: 0;
-	max-height: 100vh;
-	text-align: center;
-}
-
-@supports(display: flex){
-	figure.full-page{
-		display: flex;
-		flex-direction: column;
-	}
-
-	figure.full-page img{
-		height: 100vh;
-		object-fit: contain;
-	}
-}
 
 /* If the image is meant to be aligned block-level with the text, use this selector... */
 figure{
 	break-inside: avoid;
 	margin: 1em 40px;
 	text-align: center;
-}
-
-/* In all cases, also include the below styles */
-figure{
-	break-inside: avoid;
 }
 
 figure img{
@@ -122,9 +95,6 @@ figcaption{
 	margin: 1em;
 }
 
-figcaption p + p{
-	text-indent: 0;
-}
 /* End illustrations */
 
 /* Table CSS */
@@ -164,11 +134,6 @@ table tr:last-child td:last-child{
 [epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
 }
 
 p span.i1{
