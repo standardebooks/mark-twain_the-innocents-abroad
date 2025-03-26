@@ -59,7 +59,7 @@
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Innocents_Abroad</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/mark-twain_the-innocents-abroad</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/mark-twain_the-innocents-abroad_fay-cox</meta>
 		<dc:creator id="author">Mark Twain</dc:creator>
 		<meta property="file-as" refines="#author">Twain, Mark</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mark_Twain</meta>
