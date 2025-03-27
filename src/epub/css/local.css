@@ -106,12 +106,12 @@ table td:last-child{
 	text-align: right;
 }
 
-table tr:last-child td:first-child{
+table tfoot tr td {
 	padding-left: 1em;
 }
 
-table tr:last-child td:last-child{
-	border-top: 1px solid;
+table tbody tr:last-child td:last-child{
+	border-bottom: 1px solid;
 }
 /* End Table CSS */
 
