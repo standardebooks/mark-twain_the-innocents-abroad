@@ -199,42 +199,6 @@ blockquote header p b{
 	text-indent: 1em;
 }
 
-#chapter-26 blockquote:nth-of-type(2) blockquote{
-	font-variant: small-caps;
-	text-align: center;
-}
-
-#chapter-26 blockquote:nth-of-type(2) blockquote p + p{
-	margin-top: 1em;
-	text-indent: 0;
-}
-
-#chapter-26 blockquote:nth-of-type(2) footer{
-	border-top: solid;
-	font-size: smaller;
-	text-align: center;
-}
-
-#chapter-26 blockquote:nth-of-type(2) strong{
-	font-weight: bold;
-}
-
-#chapter-26 blockquote:nth-of-type(2) h2{
-	border-bottom: solid;
-}
-
-#chapter-26 blockquote:nth-of-type(2) header > *{
-	margin-bottom: 1em;
-}
-
-#chapter-26 blockquote:nth-of-type(2) header hgroup > *{
-	margin-bottom: 1em;
-}
-
-#chapter-26 blockquote:nth-of-type(2) > p:first-of-type{
-	text-align: center;
-}
-
 #preface footer{
 	margin-right: 2em;
 }
