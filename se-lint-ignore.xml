@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="endnotes.xhtml">
-		<ignore>
-			<code>s-064</code>
-			<reason>Endnote is not a citation, but a note from the author that ends with his initials.</reason>
-		</ignore>
-	</file>
+
 </se-lint-ignore>
