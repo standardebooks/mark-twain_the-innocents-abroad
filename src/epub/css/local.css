@@ -200,6 +200,10 @@ blockquote header p b{
 	text-indent: 1em;
 }
 
+#chapter-61 blockquote header{
+	margin-bottom: 1em;
+}
+
 #preface footer{
 	margin-right: 2em;
 }
