@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-
+	<file path="chapter-26.xhtml">
+		<ignore>
+			<code>s-046</code>
+			<reason>Does not require verse semantics - recreating formatting of a document as presented in the text.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
