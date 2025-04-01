@@ -200,6 +200,26 @@ blockquote header p b{
 	text-indent: 1em;
 }
 
+#chapter-26 blockquote header p{
+	font-variant: initial;
+	margin-bottom: 1em;
+}
+
+#chapter-26 blockquote header p b{
+	font-variant: small-caps;
+}
+
+#chapter-26 blockquote > header > p:nth-of-type(1){
+	border-bottom: solid;
+	font-size: x-large;
+}
+
+#chapter-26 blockquote > footer{
+	border-top: solid;
+	font-size: small;
+	text-align: center;
+}
+
 #chapter-61 blockquote header{
 	margin-bottom: 1em;
 }
