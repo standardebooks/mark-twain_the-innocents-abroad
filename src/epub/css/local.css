@@ -106,7 +106,7 @@ table td:last-child{
 	text-align: right;
 }
 
-table tfoot tr td {
+table tfoot tr td{
 	padding-left: 1em;
 }
 
@@ -226,6 +226,6 @@ section section header{
 	margin-top: 2em;
 }
 
-ul {
+ul{
 	list-style-type: none;
 }
