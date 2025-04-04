@@ -45,13 +45,17 @@ section[epub|type~="dedication"] > *{
 /* End centered dedications */
 
 /* Letter CSS */
-[epub|type~="se:letter.dateline"]{
-	margin-right: 2em;
+[epub|type~="z3998:letter"] header{
 	text-align: right;
 }
 
-[epub|type~="z3998:postscript"]{
+footer{
 	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
 }
 
@@ -61,14 +65,10 @@ section[epub|type~="dedication"] > *{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
 	text-indent: 0;
-}
-
-[epub|type~="z3998:signature"]{
-	margin-right: 2em;
-	text-align: right;
 }
 /* End Letter CSS */
 
@@ -224,11 +224,6 @@ blockquote header p b{
 
 #preface footer{
 	margin-right: 2em;
-}
-
-footer{
-	margin-top: 1em;
-	text-align: right;
 }
 
 header p{
