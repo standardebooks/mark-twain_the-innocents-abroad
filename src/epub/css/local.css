@@ -95,8 +95,7 @@ figcaption{
 
 /* Table CSS */
 table{
-	margin: 1em auto 1em auto;
-	width: auto;
+	margin: 1em auto;
 }
 
 table td:last-child{
@@ -104,14 +103,18 @@ table td:last-child{
 	text-align: right;
 }
 
-table tfoot tr td{
+table tr td:first-child{
+	padding-right: 2em;
+}
+
+table tfoot tr td:first-child{
 	padding-left: 1em;
 }
 
-table tbody tr:last-child td:last-child{
-	border-bottom: 1px solid;
+table tfoot tr td:last-child{
+	border-top: 1px solid;
 }
-/* End Table CSS */
+/* End table */
 
 /* Poem/Verse CSS */
 [epub|type~="z3998:poem"] p,
