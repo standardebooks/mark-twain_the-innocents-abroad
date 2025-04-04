@@ -155,93 +155,103 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
-blockquote header p{
+/* Standard headers */
+header [epub|type~="bridgehead"] + p,
+section[epub|type~="z3998:subchapter"] header,
+blockquote:not([epub|type~="z3998:letter"]) header p,
+#chapter-1 blockquote header p:first-child,
+#chapter-42 blockquote[epub|type~="z3998:verse"] header{
 	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
 }
+/* End standard headers */
 
-blockquote header p b{
-	font-variant: normal;
-}
-
-#chapter-1 blockquote footer{
-	text-align: initial;
-}
-
-#chapter-1 blockquote footer p:nth-of-type(1){
-	text-align: right;
-}
-
-#chapter-1 blockquote footer p:nth-of-type(3),
-#chapter-1 blockquote footer p:nth-of-type(5){
-	margin-top: 1em;
+/* Chapter 1 letter */
+#chapter-1 blockquote footer div p:first-child{
+	margin: 1.5em 1em .5em;
 	text-align: center;
 	text-indent: 0;
 }
 
-#chapter-1 blockquote footer p:nth-of-type(4){
+#chapter-1 blockquote footer div:first-of-type p:last-child{
 	text-align: center;
 	text-indent: 0;
 }
 
-#chapter-1 blockquote footer p:nth-of-type(9){
+#chapter-1 blockquote footer p:nth-of-type(2),
+#chapter-1 blockquote footer div:last-of-type p + p{
 	text-align: initial;
 }
+/* End chapter 1 letter */
 
+/* Chapter 13 card */
 #chapter-13 blockquote{
+	border: 1px solid;
+	padding: 1.5em 4em;
 	text-align: center;
+	width: fit-content;
 }
 
-#chapter-13 blockquote p{
+#chapter-13 blockquote p + p{
+	margin-top: 1em;
+	text-indent: 0;
+}
+/* End chapter 13 card */
+
+/* Chapter 26 bill */
+#chapter-26 blockquote:nth-of-type(2) header p{
 	margin-bottom: 1em;
 	text-indent: 0;
 }
 
-#chapter-21 hr + p{
-	margin: 0;
-	text-indent: 1em;
+#chapter-26 blockquote:nth-of-type(2) strong{
+	text-transform: uppercase;
 }
 
-#chapter-26 blockquote header p{
-	font-variant: initial;
-	margin-bottom: 1em;
-}
-
-#chapter-26 blockquote header p b{
-	font-variant: small-caps;
-}
-
-#chapter-26 blockquote > header > p:nth-of-type(1){
-	border-bottom: solid;
+#chapter-26 blockquote:nth-of-type(2) header p:first-child{
 	font-size: x-large;
+	text-decoration: underline;
 }
 
-#chapter-26 blockquote > footer{
-	border-top: solid;
-	font-size: small;
+#chapter-26 blockquote:nth-of-type(2) header p:nth-child(2),
+#chapter-26 blockquote:nth-of-type(2) header p:nth-child(4) strong{
+	font-size: larger;
+}
+
+#chapter-26 blockquote:nth-of-type(2) header p:nth-child(4) strong,
+#chapter-26 blockquote:nth-of-type(2) > p:nth-of-type(2) strong{
+	font-weight: bold;
+}
+
+#chapter-26 blockquote:nth-of-type(2) > p strong{
+	display: block;
+	margin: 1em;
 	text-align: center;
+	text-indent: 0;
 }
 
-#chapter-61 blockquote header{
-	margin-bottom: 1em;
+#chapter-26 blockquote:nth-of-type(2) > p br{
+	display: none;
 }
 
-#preface footer{
-	margin-right: 2em;
+#chapter-26 blockquote:nth-of-type(2) > footer{
+	border-top: solid;
+	text-align: center;
+	text-indent: 0;
 }
+/* End chapter 26 bill */
 
-header p{
-	font-variant: small-caps;
-}
-
-header [epub|type~="bridgehead"] + p{
-	margin-top: 2em;
-}
-
-section section header{
-	margin-bottom: -2em;
-	margin-top: 2em;
-}
-
+/* Chapter 59 notebook */
 ul{
 	list-style-type: none;
 }
+
+ul li + li{
+	margin-top: .5em;
+}
+
+#chapter-59 ul p{
+	text-indent: 1em;
+}
+/* End chapter 59 notebook */
