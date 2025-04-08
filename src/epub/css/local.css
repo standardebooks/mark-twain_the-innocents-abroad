@@ -76,13 +76,13 @@ footer{
 /* If the image is meant to be aligned block-level with the text, use this selector... */
 figure{
 	break-inside: avoid;
-	margin: 1em 40px;
-	text-align: center;
+	margin: 1em 2.5em;
 }
 
 figure img{
 	display: block;
 	margin: auto;
+	max-height: 100vh;
 	max-width: 100%;
 }
 
@@ -90,6 +90,7 @@ figcaption{
 	font-size: smaller;
 	font-style: italic;
 	margin: 1em;
+	text-align: center;
 }
 /* End illustrations */
 
@@ -101,14 +102,6 @@ table{
 table td:last-child{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
-}
-
-table tr td:first-child{
-	padding-right: 2em;
-}
-
-table tfoot tr td:first-child{
-	padding-left: 1em;
 }
 
 table tfoot tr td:last-child{
@@ -171,7 +164,6 @@ blockquote:not([epub|type~="z3998:letter"]) header p,
 #chapter-1 blockquote footer div p:first-child{
 	margin: 1.5em 1em .5em;
 	text-align: center;
-	text-indent: 0;
 }
 
 #chapter-1 blockquote footer div:first-of-type p:last-child{
@@ -188,7 +180,8 @@ blockquote:not([epub|type~="z3998:letter"]) header p,
 /* Chapter 13 card */
 #chapter-13 blockquote{
 	border: 1px solid;
-	padding: 1.5em 4em;
+	margin: 1em auto;
+	padding: 2em 4em;
 	text-align: center;
 	width: fit-content;
 }
@@ -245,10 +238,11 @@ blockquote:not([epub|type~="z3998:letter"]) header p,
 /* Chapter 59 notebook */
 ul{
 	list-style-type: none;
+	padding: 0;
 }
 
 ul li + li{
-	margin-top: .5em;
+	margin-top: 1em;
 }
 
 #chapter-59 ul p{
