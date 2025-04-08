@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mark-twain/the-innocents-abroad</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-04-08T18:37:50Z</dc:date>
+		<meta property="dcterms:modified">2025-04-08T18:37:50Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,16 +48,16 @@
 		<meta property="term" refines="#subject-3">sh85045661</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Travel</meta>
-		<dc:description id="description">A narrative of the author’s travels, offering witty observations on the places and cultures he encounters and commentary on the habits and foibles of his fellow travelers.</dc:description>
+		<dc:description id="description">Mark Twain travels abroad, offering witty observations on the places and cultures he encounters and commentary on the habits and foibles of his fellow travelers.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Innocents Abroad&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Mark Twain&lt;/a&gt;, originally published in 1869, chronicles Twain’s journey through Europe, Northern Africa and the Holy Land as part of a group of American tourists aboard the steamship &lt;i&gt;Quaker City&lt;/i&gt;. Twain uses his signature wit and humor to describe the group’s experiences as they explore famous landmarks, mixing descriptions of ancient ruins and sacred sites with irreverent commentary on the expectations versus the reality of these revered destinations. He comments on the various culture clashes he encounters, and also pokes fun at the peculiar and sometimes absurd behavior of fellow travelers.&lt;/p&gt;
-			&lt;p&gt;Twain’s narrative captures the spirit of many Americans of his time, traveling from a still-young nation to the “Old World,” and comparing what they encounter to what they are familiar with at home (as Twain humorously compares all bodies of water he sees to Lake Tahoe). While a product of the 1860s, the story still feels fresh and vibrant, and many of Twain’s anecdotes may feel all too familiar to travelers today, from underwhelming hotels, to unscrupulous tour guides, to the difficulty of communicating abroad (including ill-fated attempts at speaking French in Paris). &lt;i&gt;The Innocents Abroad&lt;/i&gt; conveys the style, spirit and humor for which Twain in famous, while providing an entertaining, rollicking narrative of Twain’s grand tour.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Innocents Abroad&lt;/i&gt;, published in 1869, chronicles &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain’s&lt;/a&gt; journey through Europe, Northern Africa, and the Holy Land as part of a group of American tourists aboard the steamship &lt;i&gt;Quaker City&lt;/i&gt;. Twain uses his signature wit and humor to describe the group’s experiences as they explore famous landmarks, mixing descriptions of ancient ruins and sacred sites with irreverent commentary on the expectations versus the reality of these revered destinations. He comments on the various culture clashes he encounters, and also pokes fun at the peculiar—and sometimes absurd—behavior of fellow travelers.&lt;/p&gt;
+			&lt;p&gt;Twain’s narrative captures the spirit of many Americans of his time, comparing his still-young nation to the Old World (with Twain humorously comparing every body of water he sees to Lake Tahoe). While a product of the 1860s, the story still feels fresh and vibrant, and many of Twain’s anecdotes may feel all too familiar to travelers today—from underwhelming hotels, to unscrupulous tour guides, to the difficulty of communicating abroad (including ill-fated attempts at speaking French in Paris). &lt;i&gt;The Innocents Abroad&lt;/i&gt; conveys the style, spirit and humor for which Twain in famous, while providing an entertaining, rollicking narrative of a memorable Grand Tour.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3176</dc:source>
 		<dc:source>https://archive.org/details/innocentsabroado0000mark_e4a2</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">195618</meta>
+		<meta property="se:reading-ease.flesch">65.46</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Innocents_Abroad</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mark-twain_the-innocents-abroad</meta>
 		<dc:creator id="author">Mark Twain</dc:creator>
@@ -92,6 +92,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
