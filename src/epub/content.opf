@@ -56,7 +56,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3176</dc:source>
 		<dc:source>https://archive.org/details/innocentsabroado0000mark_e4a2</dc:source>
-		<meta property="se:word-count">195617</meta>
+		<meta property="se:word-count">194731</meta>
 		<meta property="se:reading-ease.flesch">65.46</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Innocents_Abroad</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mark-twain_the-innocents-abroad</meta>
