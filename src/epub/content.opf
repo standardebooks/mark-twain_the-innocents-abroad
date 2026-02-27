@@ -74,7 +74,6 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/True_Williams</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/n79032763</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
-		<meta property="display-seq" refines="#illustrator">0</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<dc:contributor id="artist">Adrien Dauzats</dc:contributor>
 		<meta property="file-as" refines="#artist">Dauzats, Adrien</meta>
