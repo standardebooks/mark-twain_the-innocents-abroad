@@ -2,7 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Bridgeheads */
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -10,7 +10,7 @@
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
+[epub|type~="se:bridgehead"] i{
 	font-style: normal;
 }
 /* End bridgeheads */
@@ -149,7 +149,7 @@ abbr[epub|type~="se:era"]{
 }
 
 /* Standard headers */
-header [epub|type~="bridgehead"] + p,
+header [epub|type~="se:bridgehead"] + p,
 section[epub|type~="z3998:subchapter"] header,
 blockquote:not([epub|type~="z3998:letter"]) header p,
 #chapter-1 blockquote header p:first-child,
