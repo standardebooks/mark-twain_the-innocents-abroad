@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Innocents Abroad, Or, The New Pilgrim’s Progress</dc:title>
 		<meta property="file-as" refines="#fulltitle">Innocents Abroad, Or, The New Pilgrim’s Progress, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Middle East -- Description and travel</dc:subject>
 		<dc:subject id="subject-2">Voyages and travels</dc:subject>
 		<dc:subject id="subject-3">Europe -- Description and travel</dc:subject>
