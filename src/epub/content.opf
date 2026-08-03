@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/mark-twain/the-innocents-abroad</dc:identifier>
 		<dc:date>2025-04-08T18:37:50Z</dc:date>
@@ -49,11 +49,11 @@
 		<meta property="term" refines="#subject-3">sh85045661</meta>
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Travel</meta>
-		<dc:description id="description">Mark Twain travels abroad, offering witty observations on the places and cultures he encounters and commentary on the habits and foibles of his fellow travelers.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Mark Twain travels abroad, offering witty observations on the places and cultures he encounters and commentary on the habits and foibles of his fellow travelers.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Innocents Abroad&lt;/i&gt;, published in 1869, chronicles &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain’s&lt;/a&gt; journey through Europe, Northern Africa, and the Holy Land as part of a group of American tourists aboard the steamship &lt;i&gt;Quaker City&lt;/i&gt;. Twain uses his signature wit and humor to describe the group’s experiences as they explore famous landmarks, mixing descriptions of ancient ruins and sacred sites with irreverent commentary on the expectations versus the reality of these revered destinations. He comments on the various culture clashes he encounters, and also pokes fun at the peculiar—and sometimes absurd—behavior of fellow travelers.&lt;/p&gt;
 			&lt;p&gt;Twain’s narrative captures the spirit of many Americans of his time, comparing his still-young nation to the Old World (with Twain humorously comparing every body of water he sees to Lake Tahoe). While a product of the 1860s, the story still feels fresh and vibrant, and many of Twain’s anecdotes may feel all too familiar to travelers today—from underwhelming hotels, to unscrupulous tour guides, to the difficulty of communicating abroad (including ill-fated attempts at speaking French in Paris). &lt;i&gt;The Innocents Abroad&lt;/i&gt; conveys the style, spirit and humor for which Twain in famous, while providing an entertaining, rollicking narrative of a memorable Grand Tour.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3176</dc:source>
 		<dc:source>https://archive.org/details/innocentsabroado0000mark_e4a2</dc:source>
