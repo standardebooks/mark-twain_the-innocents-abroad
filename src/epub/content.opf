@@ -57,7 +57,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3176</dc:source>
 		<dc:source>https://archive.org/details/innocentsabroado0000mark_e4a2</dc:source>
-		<meta property="schema:wordCount">194731</meta>
+		<meta property="schema:wordCount">194758</meta>
 		<meta property="schema:educationalLevel">65.46</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Innocents_Abroad" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
